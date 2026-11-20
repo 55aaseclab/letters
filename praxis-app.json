@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "letters",
+  "version": "0.1.1",
+  "kind": "app",
+  "name": "Letters",
+  "description": "Private academic correspondence",
+  "labels": {
+    "en": {
+      "name": "Letters",
+      "description": "Private academic correspondence"
+    },
+    "zh": {
+      "name": "信件",
+      "description": "私有学术信件与推荐材料"
+    }
+  },
+  "icon": "public/praxis-icon.svg",
+  "iconAliases": [
+    "/letters-icon.svg"
+  ],
+  "path": "/",
+  "adminOnly": true,
+  "documents": {
+    "prd": {
+      "en": "PRD.md",
+      "zh": "PRD.md",
+      "zhHeading": "## 简体中文"
+    }
+  }
+}
